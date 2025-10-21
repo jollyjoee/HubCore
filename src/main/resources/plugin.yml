@@ -1,0 +1,16 @@
+name: HubCore
+version: 1.0.0
+main: com.jolly.hubCore.HubCore
+api-version: 1.21
+author: Jolly
+description: A lightweight Paper plugin for hub servers (disable damage, hunger, and building)
+folia-supported: true
+commands:
+  hub:
+    description: Sends you to the hub server
+    usage: /hub
+permissions:
+  hub.build:
+    description: Allows building and breaking blocks in the hub
+    default: op
+

@@ -1,0 +1,14 @@
+#if protection-enabled is true:
+#No hunger, No damage (except void), No block break/place/interact
+#Only /hub command will work in the plugin
+protection-enabled: true
+#The command that players need to type in order
+#to teleport to the hub
+#default is /hub
+command: "hub"
+#Server name in the Proxy configuration
+hub-name: "lobby"
+#World name for hub server
+hub-world-name: "world"
+#The server name where this plugin is intalled
+this-server-name: "smp"
